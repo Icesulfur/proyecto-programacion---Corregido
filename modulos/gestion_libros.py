@@ -1,8 +1,8 @@
-
 """
 Módulo de Gestión de Libros
-Desarrollado por: Equipo
+Desarrollado por: IGLESIAS, MARTIN DAMIAN
 
+Usa listas para almacenar información de libros
 Persistencia en JSON usando modulos.persistencia
 """
 from utilidades import limpiar_pantalla, pausar
