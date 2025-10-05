@@ -1,8 +1,11 @@
-
 """
 Módulo de Gestión de Préstamos
-Persistencia en JSON usando modulos.persistencia
+Desarrollado por: KIDYBA, LAUTARO AGUSTIN
+
+Usa listas para almacenar información de préstamos
 """
+
+
 from datetime import date
 from utilidades import limpiar_pantalla, pausar
 from modulos.persistencia import leer, escribir, generar_id
