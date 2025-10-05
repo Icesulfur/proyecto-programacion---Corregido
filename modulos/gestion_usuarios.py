@@ -1,8 +1,10 @@
-
 """
 Módulo de Gestión de Usuarios
-Persistencia en JSON usando modulos.persistencia
+Desarrollado por: MILITELLO, LUCA SANTINO
+
+Usa listas para almacenar información de usuarios
 """
+
 from utilidades import limpiar_pantalla, pausar
 from modulos.persistencia import leer, escribir
 
