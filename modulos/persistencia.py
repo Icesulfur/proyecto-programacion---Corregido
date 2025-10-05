@@ -1,16 +1,12 @@
-
-# -*- coding: utf-8 -*-
 """
 Módulo de Persistencia de Datos
-- Escritura atómica y recuperación de archivos temporales
-- API simple: inicializar_datos, leer, escribir, generar_id, agregar/actualizar/eliminar_registro
+Desarrollado por: LEE, HYO LIN
 """
-from __future__ import annotations
 
+from __future__ import annotations
 from pathlib import Path
 from typing import List, Dict, Any
 
-# Compatibilidad con Python 3.7 (Literal no está en typing)
 try:
     from typing import Literal
 except Exception:  # pragma: no cover
